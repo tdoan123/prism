@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Prism.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+152b7d931f15cf52e77d6c8f5566dcf3ac07270b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40cc54c27464851700a9f7dade7e76d519ef7c09")]
 [assembly: System.Reflection.AssemblyProductAttribute("Prism.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Prism.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
