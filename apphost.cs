@@ -5,7 +5,9 @@
 
 var builder = DistributedApplication.CreateBuilder(args);
 
-var postgres = builder.AddPostgres("postgres");
+var postgres = builder.AddPostgres("postgres", port: 5432)
+    .WithImage("pgvector", "pg17")
+    .WithImageRegistry("pgvector");
 var prism = postgres.AddDatabase("prism");
 
 var mongo = builder.AddMongoDB("mongo");
